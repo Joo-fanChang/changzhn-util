@@ -1,0 +1,27 @@
+{
+  "name": "changzhn-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joo-fanChang/changzhn-util.git"
+  },
+  "keywords": [
+    "javascript",
+    "plugin",
+    "util"
+  ],
+  "author": "changzhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joo-fanChang/changzhn-util/issues"
+  },
+  "homepage": "https://github.com/Joo-fanChang/changzhn-util#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  }
+}
