@@ -2,10 +2,10 @@
   "name": "changzhn-util",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js --presets babel-preset-es2015 --out-dir .",
+    "build": "webpack --color --progress",
     "prepublish": "npm run build",
     "babel": "./node_modules/.bin/babel index.js"
   },
@@ -19,14 +19,17 @@
     "util"
   ],
   "author": "changzhn",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Joo-fanChang/changzhn-util/issues"
   },
   "homepage": "https://github.com/Joo-fanChang/changzhn-util#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "eslint": "^4.16.0"
+    "eslint": "^4.16.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
   }
 }
