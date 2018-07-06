@@ -3,7 +3,7 @@
 	 * @param:
 	 * fm[string]：时间的格式 可以为 'yyyy-MM-dd h:m:s' 或者 'yy-M-d h:m:s'
 	* */
-export default function(fm) {
+module.exports = function(fm) {
   var date = new Date();
   /* eslint-disable */
 	var time = {

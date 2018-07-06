@@ -3,7 +3,7 @@
  * @param:
  * 	search[string]：查询参数，只是 ? 后的部分
  * */
-export default function(search) {
+module.exports = function(search) {
   if (search === void 0) {
     search = '';
   }
@@ -19,4 +19,4 @@ export default function(search) {
       }), q);
     })({});
   })(search.split('?')[1]);
-}
+};
