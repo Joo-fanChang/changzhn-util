@@ -1,7 +1,7 @@
 /**
 	* uuid：随机生成一个 16进制的id 4eef3609-5b83-4408-866a-aee202bf1a20
 	*/
-module.exports = function () {
+export default function () {
 	var i,
 		random;
 	var uuid = '';
@@ -21,4 +21,4 @@ module.exports = function () {
 	}
 
 	return uuid;
-};
+}

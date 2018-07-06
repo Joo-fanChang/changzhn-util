@@ -1,10 +1,10 @@
-let uuid = require('./src/uuid');
-let formatTime = require('./src/formatTime');
-let query = require('./src/query');
-let getQueryString = require('./src/getQueryString');
-module.exports = {
-	uuid,
-	formatTime,
-	query,
-	getQueryString
+import uuid from './src/uuid';
+import formatTime from './src/formatTime';
+import query from './src/query';
+import getQueryString from './src/getQueryString';
+export default {
+  uuid,
+  formatTime,
+  query,
+  getQueryString
 };
