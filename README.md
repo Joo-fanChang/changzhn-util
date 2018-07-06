@@ -27,7 +27,7 @@ console.log(id); // 9f673cb6-459f-4595-bf05-1bfabeec1a6c
 - getQueryString: 获取url的query参数
 ```js
 //　例如当前页面url http://print.yonyoucloud.com?tenantid=hello&sendType=2
-var tenantId = util.getQueryString('tenantid);
+var tenantId = util.getQueryString('tenantid');
 console.log(tenantId); // hello
 ```
 
