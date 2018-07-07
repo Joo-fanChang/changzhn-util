@@ -1,4 +1,7 @@
 # 一些实用的工具函数
+
+https://www.travis-ci.org/Joo-fanChang/changzhn-util.svg?branch=master
+
 ##　使用方法
 ```shell
 npm i changzhn-util -S
