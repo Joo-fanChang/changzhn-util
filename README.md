@@ -41,7 +41,6 @@ console.log(time1); // 2018-07-06 16:7:10
 var time2 = util.formatTime('yyyy-MM-dd h:m:s');
 console.log(time2); // 18-7-6 16:8:10
 ```
-- query: 将search转化对象格式
 
 
 
