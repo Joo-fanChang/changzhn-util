@@ -64,6 +64,6 @@ let o = {
 
 let co = util.deepclone(o);
 
-console.log(co === 0); //false
+console.log(co === o); //false
 ```
 
