@@ -25,6 +25,9 @@ module.exports = {
       "semi": [
           "error",
           "always"
+      ],
+      "no-case-declarations": [
+        0
       ]
   }
 };

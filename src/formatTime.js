@@ -15,6 +15,6 @@ module.exports = function(fm) {
 		s: date.getSeconds()
   };
 	return fm.replace(/(y+|M+|d+|h+|m+|s+)/g, function(v) {
-		return ((v.length > 1? '0' : '') + eval('time.' + v.slice(-1))).slice(-(v.length > 2 ? v.length : 2));
+		return ((v.length > 1? '0' : '') + eval('time.' + v.slice(-1))).slice(-(v.length > 2 ? v.length : 2));/* eslint-disable-line */
 	});
 }

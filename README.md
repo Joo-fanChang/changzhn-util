@@ -45,5 +45,25 @@ var time2 = util.formatTime('yyyy-MM-dd h:m:s');
 console.log(time2); // 18-7-6 16:8:10
 ```
 
+- deepclone: 深度克隆一个数据
+```js
+let n = 4175;
+let s = 'hello';
+let b = true;
+let o = {
+  name: 'changzhn',
+  age: 18,
+  others: {
+    key1: n,
+    key2: s,
+    key3: b,
+    key5: function() {},
+    key6: ['a', 'b', 'c']
+  }
+};
 
+let co = util.deepclone(o);
+
+console.log(co === 0); //false
+```
 
