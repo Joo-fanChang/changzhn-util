@@ -67,3 +67,8 @@ let co = util.deepclone(o);
 console.log(co === o); //false
 ```
 
+- addQueryStringArg　向url中添加参数，经过encoded处理
+```js
+let encodedStr = util.addQueryStringArg('https://www.baidu.com', 'name', '中国');
+console.log(encodedStr); // https://www.baidu.com?name=%E4%B8%AD%E5%9B%BD
+```
